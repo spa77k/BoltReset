@@ -1,0 +1,10 @@
+name: BoltReset
+version: '${project.version}'
+main: io.github.spa77k.boltreset.BoltResetPlugin
+api-version: '1.20'
+depend: [Bolt]
+description: Clears Bolt block protections in a world after it has been regenerated.
+commands:
+  boltreset:
+    description: Clear Bolt block protections in a regenerated world (console only).
+    usage: /boltreset <status|clear <world> <old-uid> <new-uid>>

@@ -1,0 +1,12 @@
+# Worlds whose Bolt block protections may be cleared. Other worlds are always refused.
+# Example:
+# worlds:
+#   - resource
+#   - resource_the_end
+worlds: []
+
+# Refuse to clear unless the server whitelist is on.
+require-whitelist: true
+
+# Refuse to clear while any player is online.
+require-empty-server: true
